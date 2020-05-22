@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-TrashCollector-11F2F837-22E4-484F-9792-55DB5E32E577")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrashCollector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
